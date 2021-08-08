@@ -15,19 +15,29 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./img/brand-name.svg" />
     <title>Bayu</title>
+    <style>
+      body {
+        height: 10000px;
+      }
+    </style>
   </head>
   <body id="home" data-bs-spy="scroll" data-bs-target="#navbar-spy">
     <!-- navbar -->
-    <nav class="container-fluid sticky-top bg-light py-md-3 pt-4 pb-2">
-      <div class="row align-items-center ps-md-4">
-        <div class="col-1"><img src="./img/brand-name.svg" alt="brand" /></div>
-        <div class="col mb-2 d-flex justify-content-md-center justify-content-end" id="navbar-spy">
-          <a class="nav-link active" href="#home">Home</a>
-          <a class="nav-link" href="#intro">My Intro</a>
-        </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container pt-2">
+        <a href="" class="navbar-brand">
+          <img src="./img/brand-name.svg" alt="brand" />
+        </a>
+        <ul class="navbar-nav text-center flex-row justify-content-center gx-2 col" id="navbar-spy">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#intro" class="nav-link">Intro</a></li>
+        </ul>
       </div>
     </nav>
+    <!-- navbar end -->
     <!-- main -->
+
     <section class="pt-3">
       <div class="position-relative">
         <div class="container-fluid mt-3 align-items-end d-grid">
@@ -180,6 +190,7 @@
         </div>
       </div>
     </section>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
