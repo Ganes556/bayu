@@ -1,5 +1,8 @@
+if (sessionStorage.getItem("user") !== "admin" && sessionStorage.getItem("pass") !== "admin") {
+  window.location.replace("https://ganes556.github.io/bayu/main/");
+}
 let login = {
-  name: "MuhamadBayu",
+  name: "admin",
   password: "admin",
 };
 

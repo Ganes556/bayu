@@ -1,4 +1,4 @@
-if (sessionStorage.getItem("user") !== "MuhamadBayu" && sessionStorage.getItem("pass") !== "admin") {
+if (sessionStorage.getItem("user") !== "admin" && sessionStorage.getItem("pass") !== "admin") {
   window.location.replace("https://ganes556.github.io/bayu/");
 }
 $(document).ready(function () {
