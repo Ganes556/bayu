@@ -7,7 +7,7 @@ $(document).ready(function () {
   $(".btn").click(function (e) {
     e.preventDefault();
     if ($("#username").val() === login.name && $("#password").val() === login.password) {
-      window.location.replace("/main/");
+      window.location.replace("/bayu/main/");
       sessionStorage.setItem("user", $("#username").val());
       sessionStorage.setItem("pass", $("#password").val());
     } else {
