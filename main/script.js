@@ -1,9 +1,9 @@
 if (sessionStorage.getItem("user") !== "MuhamadBayu" && sessionStorage.getItem("pass") !== "admin") {
-  window.location.replace("/bayu/");
+  window.location.replace("https://ganes556.github.io/bayu/");
 }
 $(document).ready(function () {
   $("a.log-out").click(function (e) {
-    window.location.replace("/bayu/");
+    window.location.replace("https://ganes556.github.io/bayu/");
     sessionStorage.clear();
   });
 });
