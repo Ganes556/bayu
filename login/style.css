@@ -18,6 +18,9 @@ body {
   background: #ef8a3d;
   border-radius: 10px;
 }
+.btn-orange:focus {
+  box-shadow: none;
+}
 .form-control {
   padding: 0.7rem;
   color: #9c9c9c !important;
