@@ -14,6 +14,8 @@ $(document).ready(function () {
       sessionStorage.setItem("user", $("#username").val());
       sessionStorage.setItem("pass", $("#password").val());
     } else {
+      $(".incorrect").removeClass("d-none");
+      $(".incorrect").css("font-size", "0.8rem");
       $(".form-control").addClass("is-invalid");
     }
   });

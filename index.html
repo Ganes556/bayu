@@ -20,12 +20,13 @@
             <p class="fw-bold fs-md-2 fs-1">SIGN IN</p>
             <p>Please sign in before proceed to next page</p>
           </div>
-          <div class="col-12 justify-content-center d-grid mb-4 my-3">
+          <div class="col-12 justify-content-center d-grid">
             <img width="100px" src="./main/img/brand-name.svg" alt="" srcset="" />
           </div>
-          <form action="../dashboard/index.html" class="col-12 d-grid gap-3 mb-md-5 mb-4">
-            <input type="text" class="form-control" id="username" placeholder="Username" name="username" />
-            <input type="password" class="form-control" id="password" placeholder="Password" name="password" />
+          <form action="../dashboard/index.html" class="col-12 d-grid mb-md-5 mb-4">
+            <p class="m-0 d-none incorrect text-danger ps-2">Username or Password incorrect!</p>
+            <input type="text" class="form-control mb-3" id="username" placeholder="Username" name="username" />
+            <input type="password" class="form-control mb-3" id="password" placeholder="Password" name="password" />
             <button type="submit" class="btn btn-orange text-white">Sign In</button>
           </form>
         </div>
